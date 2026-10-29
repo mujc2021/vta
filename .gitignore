@@ -1,0 +1,17 @@
+.DS_Store
+node_modules/
+dist/
+qa/
+__pycache__/
+*.pyc
+
+# Local media preparation, provenance, previews, and deployment archives.
+*.zip
+LOCAL_DEVELOPMENT.md
+prepare_media.py
+scripts/update_page_media.py
+assets/media-manifest.json
+assets/images/*.json
+.openai/
+.env
+.env.*
